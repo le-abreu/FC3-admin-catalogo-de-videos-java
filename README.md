@@ -19,17 +19,12 @@
 
 ## Como executar?
 
-1. Clonar o repositório:
-```sh
-git clone https://github.com/devfullcycle/FC3-admin-catalogo-de-videos-java.git
-```
-
-2. Subir o banco de dados MySQL com Docker:
+1. Subir o banco de dados MySQL com Docker:
 ```shell
 docker-compose up -d
 ```
 
-3. Executar as migrações do MySQL com o Flyway:
+2. Executar as migrações do MySQL com o Flyway:
 ```shell
 ./gradlew flywayMigrate
 ```
